@@ -1,1 +1,9 @@
+# python
 *.pyc
+__pycache__
+
+# emacs
+*~
+
+# sphinx
+docs/_build
