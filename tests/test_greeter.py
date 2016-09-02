@@ -5,7 +5,7 @@ import pytest
 import os
 import greeter
 
-@pytest.fixture
+@pytest.yield_fixture
 def jeeves():
     jeeves = greeter.Greeter()
     yield jeeves
