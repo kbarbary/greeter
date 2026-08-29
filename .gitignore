@@ -1,5 +1,6 @@
 # python
 *.pyc
+build
 __pycache__
 
 # emacs
